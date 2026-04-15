@@ -1,0 +1,17 @@
+{
+  "name": "geo-brief-generator",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:api": "cd apps/api && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "dev": "concurrently \"npm run dev:web\" \"npm run dev:api\"",
+    "install:all": "npm install && cd apps/api && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

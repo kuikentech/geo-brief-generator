@@ -1,0 +1,107 @@
+[
+  {
+    "id": "e4c-001",
+    "title": "Solar Water Disinfection (SODIS)",
+    "url": "https://www.engineeringforchange.org/solutions/product/solar-water-disinfection-sodis/",
+    "sector": "WASH",
+    "technology_type": "Solar Water Purification",
+    "description": "SODIS is a household-scale water treatment method using solar UV-A radiation and heat to inactivate pathogenic microorganisms in contaminated water. PET bottles filled with water are exposed to sunlight for 6–48 hours depending on solar intensity and initial turbidity. The method has been rigorously tested in over 33 countries and is recommended by WHO for emergency and household water treatment in resource-constrained settings.",
+    "key_findings": [
+      "Achieves 99.9%+ (3-log) reduction of E. coli and fecal coliforms under full sun (≥500 W/m²) within 6 hours",
+      "Effectiveness drops significantly when turbidity exceeds 30 NTU — pre-filtration required for turbid sources",
+      "Average daily solar irradiance of ≥5.5 kWh/m²/day provides sufficient UV dose for reliable disinfection",
+      "Per-unit capital cost near zero (reused PET bottles); community training costs typically USD 3–8 per household",
+      "Studies in Kenya, Zimbabwe, and Ethiopia show 30–50% reduction in diarrheal disease incidence with consistent use",
+      "Black SODIS bags increase water temperature to 50–60°C, accelerating disinfection under partial cloud cover"
+    ],
+    "applicability_notes": "Highly applicable in Northern Kenya due to excellent solar resource (6.0–7.0 kWh/m²/day). Suitable for individual and household-scale use. Limitations include treatment throughput (max 2 liters per bottle cycle), low cultural acceptance in some communities requiring behavior change programming, and ineffectiveness against chemical contaminants.",
+    "region_tags": ["East Africa", "Sub-Saharan Africa", "Kenya", "Ethiopia", "Semi-arid regions"],
+    "climate_tags": ["Arid", "Semi-arid", "High solar irradiance", "Hot and dry"],
+    "source_classification": "E4C Solutions Library",
+    "access_date": "2026-04-14"
+  },
+  {
+    "id": "e4c-002",
+    "title": "Low-Cost Ceramic Water Filter (CWF)",
+    "url": "https://www.engineeringforchange.org/solutions/product/ceramic-water-filter/",
+    "sector": "WASH",
+    "technology_type": "Solar Water Purification",
+    "description": "Point-of-use ceramic water filters, typically manufactured locally from clay, rice husks, and colloidal silver, provide household-scale water treatment without electricity. The flowerpot-shaped filter sits in a plastic or ceramic receptacle and treats up to 20 liters per day. Manufacturing can be established with local raw materials and simple kilns, creating local production capacity. Over 50 manufacturing organizations operate across 50+ countries.",
+    "key_findings": [
+      "Achieves 1.5–2.5 log reduction of E. coli (90–99.7% removal) when correctly manufactured and used",
+      "Flow rate typically 1–3 L/hour, sufficient for household needs (20L/day capacity)",
+      "Manufacturing cost per filter: USD 5–12 (clay + combustible material + colloidal silver); retail USD 8–25",
+      "Requires periodic cleaning every 2–4 weeks and silver recoating annually",
+      "Study in Cambodia, Ghana, and Kenya shows 40–50% reduction in diarrheal disease incidence",
+      "Production possible at community level with 6-month setup period and local clay sourcing"
+    ],
+    "applicability_notes": "Suitable for Northern Kenya as a complement to solar purification. Does not require electricity. Local clay sources need assessment — Turkana County has documented clay deposits near Lodwar. Cannot address chemical contamination (fluoride common in Rift Valley groundwater). Requires consistent behavioral adoption and maintenance training.",
+    "region_tags": ["East Africa", "Kenya", "Sub-Saharan Africa", "Rural"],
+    "climate_tags": ["Arid", "Semi-arid", "Any climate"],
+    "source_classification": "E4C Solutions Library",
+    "access_date": "2026-04-14"
+  },
+  {
+    "id": "e4c-003",
+    "title": "Solar Pump for Rural Water Supply",
+    "url": "https://www.engineeringforchange.org/solutions/product/solar-pump-rural-water-supply/",
+    "sector": "WASH",
+    "technology_type": "Solar Water Purification",
+    "description": "Solar photovoltaic-powered submersible or surface pumps for borehole and surface water lifting serve as a core infrastructure component for rural water supply systems in off-grid settings. Systems typically include a PV array (300W–3kW), variable frequency drive (VFD) controller, submersible pump, storage tank, and distribution piping. When combined with treatment technology (UV, chlorination, ceramic filtration), these form complete solar-powered water purification systems.",
+    "key_findings": [
+      "Capital cost range: USD 3,000–15,000 for community-scale systems (500–2000 persons) depending on borehole depth and storage",
+      "Pumping capacity: 5–50 m³/day depending on solar resource, pump size, and static water level",
+      "Lifespan: PV panels 20–25 years; pumps 5–8 years; batteries (if included) 3–5 years",
+      "O&M cost: USD 200–800/year for community-scale systems; requires local technician capacity",
+      "Northern Kenya average solar irradiance supports 6–8 hours peak pumping daily",
+      "Bore yields in Turkana/Marsabit average 0.5–5 L/s; hydrogeological assessment critical before deployment"
+    ],
+    "applicability_notes": "Core technology for Northern Kenya deployment. High solar resource eliminates need for diesel backup in most scenarios. Key risks: borehole yield uncertainty, aquifer salinity and fluoride in volcanic geology (Marsabit region), dust accumulation reducing panel efficiency by 15–25% if not cleaned weekly, and limited local pump repair capacity requiring supply chain planning.",
+    "region_tags": ["East Africa", "Kenya", "Ethiopia", "Tanzania", "Off-grid rural"],
+    "climate_tags": ["Arid", "Semi-arid", "High solar irradiance"],
+    "source_classification": "E4C Solutions Library",
+    "access_date": "2026-04-14"
+  },
+  {
+    "id": "e4c-004",
+    "title": "Biosand Water Filter (BSF)",
+    "url": "https://www.engineeringforchange.org/solutions/product/biosand-filter/",
+    "sector": "WASH",
+    "technology_type": "Solar Water Purification",
+    "description": "The biosand filter is a household or community-scale slow sand filtration technology adapted for intermittent use in low-income settings. Water passes through a biologically active sand layer (schmutzdecke) that removes 90–99% of pathogens through biological, physical, and chemical mechanisms. Concrete or plastic containers are locally manufacturable, and the filter operates without electricity.",
+    "key_findings": [
+      "Removes 90–99.9% of E. coli, Giardia, and Cryptosporidium; partial removal of viruses (50–80%)",
+      "Flow rate: 0.3–0.6 L/minute (400–800 L/day); suitable for household to small community scale",
+      "Construction cost: USD 15–80 depending on container material (concrete vs. plastic)",
+      "Schmutzdecke requires 2–4 weeks maturation before full pathogen removal efficiency achieved",
+      "Performance drops during dry season if filter is left unused (schmutzdecke dies) — requires recommissioning",
+      "CAWST (Centre for Affordable Water and Sanitation Technology) has trained 700+ facilitators across 80 countries"
+    ],
+    "applicability_notes": "Applicable in Northern Kenya for pre-treatment before solar disinfection. The intermittent use limitation is significant in arid regions during dry seasons. Concrete construction requires skilled labor and curing time. Sand and gravel sourcing needed — riverbeds and dry watercourses in Turkana provide suitable material. Not recommended as standalone treatment given high turbidity of surface water sources.",
+    "region_tags": ["East Africa", "Sub-Saharan Africa", "Kenya", "Rural communities"],
+    "climate_tags": ["Any climate", "Arid adaptation needed"],
+    "source_classification": "E4C Solutions Library",
+    "access_date": "2026-04-14"
+  },
+  {
+    "id": "e4c-005",
+    "title": "Community-Managed Water Systems (CMWS)",
+    "url": "https://www.engineeringforchange.org/solutions/product/community-managed-water-systems/",
+    "sector": "WASH",
+    "technology_type": "Solar Water Purification",
+    "description": "A governance and operational framework for community-owned water supply infrastructure, incorporating water user committee (WUC) formation, tariff design, financial management, and technical maintenance capacity building. CMWS models are critical for long-term sustainability of solar-powered water systems. Studies across East Africa show that systems with functional WUCs have 2.4× higher 5-year sustainability rates.",
+    "key_findings": [
+      "Water User Committees with bank accounts and elected leadership sustain systems 2.4× longer than externally managed systems",
+      "Recommended tariff: USD 0.50–1.50/m³ covers O&M and capital replacement reserves for solar pump systems",
+      "Training curriculum requires minimum 3-day workshop per WUC member; follow-up visits at 3 and 12 months critical",
+      "Women's participation in WUC leadership correlates strongly with improved payment compliance and maintenance culture",
+      "Mobile money (M-Pesa in Kenya) dramatically improves tariff collection — 40–60% higher collection rates than cash systems",
+      "IRC WASH sustainability indicators: functionality, reliability, governance, affordability, and environmental sustainability"
+    ],
+    "applicability_notes": "Essential complement to any technical solar water purification deployment in Northern Kenya. M-Pesa penetration is high even in remote areas (Safaricom coverage reaches 96% of Kenya). Pastoralist community governance structures differ from sedentary communities — traditional clan leadership integration into WUC design is critical. County water departments (e.g., Turkana County Water) should be involved for asset registration and regulatory compliance.",
+    "region_tags": ["East Africa", "Kenya", "Sub-Saharan Africa", "Rural"],
+    "climate_tags": ["Any climate"],
+    "source_classification": "E4C Solutions Library",
+    "access_date": "2026-04-14"
+  }
+]

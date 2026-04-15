@@ -1,0 +1,84 @@
+{
+  "sections": [
+    {
+      "name": "executive_summary",
+      "display_name": "Executive Summary",
+      "order": 1,
+      "prompt_role": "Provide a 2–3 paragraph executive summary covering the project location, engineering objective, key contextual findings from the geo-data analysis, and top-level viability assessment. Include confidence level and most important caveats. Write for a senior engineer or program director.",
+      "feeds_from": ["all_layers", "e4c_solutions"],
+      "confidence_factors": ["data_completeness", "layer_count", "e4c_match_quality"]
+    },
+    {
+      "name": "location_overview",
+      "display_name": "Location Overview",
+      "order": 2,
+      "prompt_role": "Describe the geographic, climatic, and administrative context of the target region. Include country, region/county, elevation range, primary livelihood activities, population density, and remoteness. Reference the selected bounding box coordinates.",
+      "feeds_from": ["settlements", "roads"],
+      "confidence_factors": ["settlement_data_quality", "road_data_coverage"]
+    },
+    {
+      "name": "engineering_objective",
+      "display_name": "Engineering Objective & Scenario Assumptions",
+      "order": 3,
+      "prompt_role": "Restate the engineering objective clearly, list all scenario assumptions made for this analysis, identify the technology category, and outline the deployment scenario parameters (community size, scale, maintenance context).",
+      "feeds_from": ["project_params"],
+      "confidence_factors": ["scenario_specificity"]
+    },
+    {
+      "name": "weather_context",
+      "display_name": "Weather Context",
+      "order": 4,
+      "prompt_role": "Analyze all active weather layers: temperature (range, seasonality), precipitation (annual totals, seasonal pattern, drought frequency), aridity index classification, solar irradiance (annual average, seasonal variation, implications for solar technology), and extreme weather risks. Connect findings directly to engineering relevance.",
+      "feeds_from": ["temperature", "precipitation", "aridity", "cloud_solar", "extreme_weather"],
+      "confidence_factors": ["nasa_power_availability", "chirps_coverage"]
+    },
+    {
+      "name": "infrastructure_context",
+      "display_name": "Infrastructure Context",
+      "order": 5,
+      "prompt_role": "Analyze road network (access quality, distance to supply chains), settlement distribution (dispersed vs clustered, implications for system placement), electricity access (current grid penetration, implications for solar justification), healthcare proximity (maintenance and health system linkage), and water infrastructure baseline (current coverage gaps, treatment needs).",
+      "feeds_from": ["roads", "settlements", "electricity", "healthcare", "water_infra"],
+      "confidence_factors": ["osm_completeness", "world_bank_data_vintage"]
+    },
+    {
+      "name": "e4c_solutions",
+      "display_name": "Relevant E4C Solutions & Comparable Deployments",
+      "order": 6,
+      "prompt_role": "Describe 3–5 relevant solutions from the E4C Solutions Library that match the technology type and sector. For each solution, explain how it applies to this specific deployment context, what performance data exists, what adaptations may be needed, and any successful case studies from climatically or contextually similar regions.",
+      "feeds_from": ["e4c_evidence"],
+      "confidence_factors": ["e4c_match_score", "case_study_geographic_similarity"]
+    },
+    {
+      "name": "viability_considerations",
+      "display_name": "Viability Considerations",
+      "order": 7,
+      "prompt_role": "Synthesize weather and infrastructure context with E4C evidence to assess technical viability, economic considerations, social/community factors, and operational sustainability. Use a structured assessment across multiple dimensions. Identify the strongest positive factors and most significant barriers.",
+      "feeds_from": ["all"],
+      "confidence_factors": ["all"]
+    },
+    {
+      "name": "risks_constraints",
+      "display_name": "Risks & Constraints",
+      "order": 8,
+      "prompt_role": "Enumerate specific risks across technical, environmental, social, supply chain, and financial dimensions. For each risk: describe the risk, estimate likelihood (high/medium/low), estimate impact (high/medium/low), and suggest a mitigation approach. Prioritize the top 5 risks.",
+      "feeds_from": ["all"],
+      "confidence_factors": ["all"]
+    },
+    {
+      "name": "data_limitations",
+      "display_name": "Data Limitations & Uncertainty",
+      "order": 9,
+      "prompt_role": "Be transparent about the limitations of each data source used: spatial resolution, temporal coverage, known gaps, and how these limitations affect the reliability of specific findings in this brief. Recommend what additional field data collection would most improve confidence.",
+      "feeds_from": ["layer_registry", "e4c_metadata"],
+      "confidence_factors": ["source_metadata_completeness"]
+    },
+    {
+      "name": "sources_citations",
+      "display_name": "Sources & Citations",
+      "order": 10,
+      "prompt_role": "List all data sources and references used in this brief in a structured format. Include full source name, providing organization, URL, access date, data type, and geographic coverage. Group by category (Geo/Climate Data, Infrastructure Data, E4C Solutions Library, Academic References).",
+      "feeds_from": ["evidence_manifest"],
+      "confidence_factors": ["citation_completeness"]
+    }
+  ]
+}
